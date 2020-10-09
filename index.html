@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--olorundara, programmer-->
+<html lang = "en">
+   <head>
+       <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0" class="hasjs" />
+      <link rel="stylesheet" media="screen" href="css/reset.css" />
+      <link rel="stylesheet" media="screen" href="css/style.css" />
+      <script src="js/form.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+      <title> olorundara Project 1 </title>
+   </head>
+<body>
+
+<div class="header">
+         <h1>Othniel's Art</h1>
+      </div>
+      <!--div class = navigation-->
+<!--<div class="row"-->
+  <div class="col-3 menu">
+      <ul>
+         <li><a class= "active" href= "XXX.html">Cartoons</a></li>
+         <li><a href= "XXX.html">Pencil Drawings</a></li>
+         <li><a href= "XXX.html">Oil Paintings</a></li>
+         <li><a href= "XXX.html">Photography</a></li>
+      </ul>
+  </div>
+
+         <form name="waitlist" method ="get" action = "#null" autocomplete = "on" onsubmit="return validatetextForm()">
+            <fieldset>
+            <p>Hi there! My name is Othniel, and I make and sell different forms of art according to your request and for any occassion. 
+               You can fill out the form below to be waitlisted
+               for a painting/ drawing/ whatever you may need! Look at the drop-down menu to look at samples of paintings I 
+               have done for other clients if you need any inspiration. Enjoy!</p>
+            <!--Company Name-->
+            <!--prefix and name selection-->
+            <div class ="col -6">
+              <label>Contact Name:</label>
+              <select name="prefix">
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+                <option value="ms">Ms</option>
+              </select>
+              <input type = "text" name ="contactname" placeholder="First name Last name">
+            </div>
+            <div class = "col -6">
+               <label>Email Address: </label>
+               <input type = "email" name ="email" placeholder="accountname@domain.com">
+            </div>
+            <!--phone number-->
+            <div class = "col -6">
+               <label>Phone Number: </label>
+               <input type = "tel" name ="contactnumber" placeholder="000-000-0000 ">
+            </div>
+            <!--DOB-->
+            <div class="col -6">
+               <label>Date of Birth: </label>
+               <input type="text" name="dateofbirth" placeholder="MM/DD/YYYY">
+            </div>
+            <!--submit form-->
+            <input type="submit" value="Waitlist" onsubmit="return readText()">
+         </fieldset>
+   </form>
+                                                                                                                 <div class="col-3 right">
+    <div class="aside">
+     <h2>What?</h2>
+            <p>Othniel's Art is the perfect small, local business to make the most personalized and special art gifts for any occasssion.</p>
+            <h2>Where?</h2>
+            <p>Based out of Othniel's dorm room in Chicago, IL, but we can reach clients all over the world and wherever else there is a mailbox.</p>
+            <h2>How?</h2>
+            <p>Submit your information, and we will contact you on your position on the waitlist. There will then be a consultation porcess to determine the size and type of your art. </p>
+        
+    </div>
+</div>
+
+<div class="footer">
+  <p>Contact me for more information at: xxxxxxxxxx@Othniel.com | (123)456-7890 | Chicago, IL</p>
+    
+</div>
+</body>
+</html>
